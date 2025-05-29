@@ -9,6 +9,9 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
+ls -ld /opt
+file /opt
+
 # Sublime wants to use the /opt path at install time...
 mkdir -p /opt/sublime_merge/Icon/128x128
 
