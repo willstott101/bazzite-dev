@@ -13,7 +13,7 @@ ls -ld /opt
 file /opt
 
 # Sublime wants to use the /opt path at install time...
-mkdir -p /opt/sublime_merge/Icon/128x128
+mkdir -p /var/opt
 
 # this installs a package from fedora repos
 dnf config-manager addrepo --from-repofile=https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
